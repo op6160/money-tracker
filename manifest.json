@@ -1,0 +1,17 @@
+{
+  "PayPay": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "PayPay"
+  },
+  "au PAY カード": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "au PAY 카드"
+  },
+  "EPOS": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "에포스카드"
+  }
+}

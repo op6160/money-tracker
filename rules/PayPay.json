@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "regex_amount": "([0-9,]+)円",
+  "regex_place": "(?:お店|加盟店)：(.+)"
+}
