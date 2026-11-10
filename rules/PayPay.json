@@ -1,5 +1,21 @@
 {
   "version": 1,
-  "regex_amount": "([0-9,]+)円",
-  "regex_place": "(?:お店|加盟店)：(.+)"
+  "include": [
+    {
+      "regex_amount": "([0-9,]+)円",
+      "regex_place": "(?:お店|加盟店)：(.+)",
+      "fallback_place": "No Data"
+    },
+    {
+      "regex_amount": "金額：([0-9,]+)円",
+      "regex_place": "店舗名：(.+)",
+      "fallback_place": "No Data"
+    }
+  ],
+  "exclude": [
+    {
+      "target": "title",
+      "contains": "支払いができませんでした"
+    }
+  ]
 }
