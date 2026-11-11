@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "include": [
+    {
+      "regex_amount": "(?:◇金額|金額)：\\s*([0-9,]+)円",
+      "regex_place": "(?:◇利用先|利用先)：\\s*([^◇\\r\\n]+?)(?=\\s*◇|\\r?\\n|$)",
+      "fallback_place": "No Data"
+    }
+  ],
+  "exclude": []
+}

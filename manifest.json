@@ -14,5 +14,45 @@
     "enable": true,
     "version": 1,
     "payment_method": "에포스카드"
+  },
+  "三井住友カード": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "미츠이스미토모카드"
+  },
+  "セゾンPORTAL": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "세존카드"
+  },
+  "MyJCB": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "JCB카드"
+  },
+  "UC Portal": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "UC카드"
+  },
+  "コメリ": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "코메리카드"
+  },
+  "JACCS": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "잭스카드"
+  },
+  "e-Orico": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "오리코카드"
+  },
+  "楽天カード": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "라쿠텐카드"
   }
 }

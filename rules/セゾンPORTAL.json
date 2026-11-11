@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "include": [
+    {
+      "regex_amount": "(?:✓\\s*)?金額：\\s*[¥￥]\\s*([0-9,]+)",
+      "regex_place": "(?:✓\\s*)?場所：\\s*(.+)",
+      "fallback_place": "No Data"
+    }
+  ],
+  "exclude": []
+}
