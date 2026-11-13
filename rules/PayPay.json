@@ -13,7 +13,7 @@
     },
     {
       "regex_amount": "金額[：:]\\s*([0-9,]+)円",
-      "regex_place": "(.+)への支払いが完了しました。",
+      "regex_place": "(.+)への支払いを受け付けました。",
       "fallback_place": ""
     }
   ],
