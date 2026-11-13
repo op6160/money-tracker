@@ -4,12 +4,17 @@
     {
       "regex_amount": "([0-9,]+)円",
       "regex_place": "(?:お店|加盟店)：(.+)",
-      "fallback_place": "No Data"
+      "fallback_place": ""
     },
     {
       "regex_amount": "金額：([0-9,]+)円",
       "regex_place": "店舗名：(.+)",
-      "fallback_place": "No Data"
+      "fallback_place": ""
+    },
+    {
+      "regex_amount": "金額[：:]\\s*([0-9,]+)円",
+      "regex_place": "(.+)への支払いが完了しました。",
+      "fallback_place": ""
     }
   ],
   "exclude": [

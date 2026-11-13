@@ -4,7 +4,7 @@
     {
       "regex_amount": "[¥￥]([0-9,]+)",
       "regex_place": "場所：(.+)",
-      "fallback_place": "No Data"
+      "fallback_place": ""
     }
   ],
   "exclude": []
