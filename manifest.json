@@ -14,5 +14,10 @@
     "enable": true,
     "version": 1,
     "payment_method": "에포스카드"
+  },
+  "三井住友カード": {
+    "enable": true,
+    "version": 1,
+    "payment_method": "미츠이스미토모카드"
   }
 }
